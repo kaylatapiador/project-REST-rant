@@ -3,9 +3,18 @@ h1{
     color:cornflowerblue;
 }
 
+h2{
+    
+    color:lightblue;
+}
+
+h3{
+    color:lightslategray;
+    font-size: 1.5em;
+}
+
 img{
-    height:400px;
-    width:400px;
+    height:20em;
 }
 
 nav {
