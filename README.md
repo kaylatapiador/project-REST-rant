@@ -1,8 +1,16 @@
-# Project REST-Rant
+## REST-Rant
 
-REST-Rant is an app where users can review resturants. 
+REST-Rant is an app where users can review restaurants. It provides functionalities to add, edit, and delete restaurant entries and user comments (rants) about those restaurants.
 
-## Routes
+## Technologies
+- Backend: Node.js, Express
+- Database: MongoDB
+- Frontend: EJS, HTML, CSS
+
+
+## Technical Information
+    
+    ## Routes
 
 | Method        |       Path    | Purpose  |
 | ------------- | ------------- | -------- |
@@ -18,10 +26,16 @@ REST-Rant is an app where users can review resturants.
 | DELETE        | /places/:id/rant/:rantId | Delete a rant (comment) about a particular place |
 | GET           | *              | 404 page (matches any route not defined above) |
 
-### Data
+### Data Model
 
-- Name (string)
-- City (string)
-- State (string)
-- Cuisines (string)
-- Pic (string)
+- Name (string): Name of the resturant 
+- City (string): City where the resturant is located
+- State (string): State where the resturant is located
+- Cuisines (string): Types of Cuisines offered by the resturant 
+- Pic (string): URL of the resturant's picture
+
+## Issues
+
+*Some of the images when you view places are broken *
+
+## Changelog
